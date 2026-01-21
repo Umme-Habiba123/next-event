@@ -17,12 +17,12 @@ const Hero: React.FC = () => {
         </h1>
 
         {/* Subtitle */}
-        <p className="text-gray-600 text-base sm:text-lg max-w-2xl">
+        <p className="text-gray-600 text-base sm:text-lg max-w-2xl ">
           Learn how to build a real-world event management application using Next.js, TypeScript, and MongoDB from project setup to CRUD operations and scalable architecture.
         </p>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 mt-6">
+        <div className="flex flex-col sm:flex-row gap-4 mt-6 ">
           <Button className="bg-black hover:bg-gray-800 text-white ">
             Browse Events
           </Button>
