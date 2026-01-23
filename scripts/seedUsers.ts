@@ -29,7 +29,7 @@ async function seedUsers() {
     throw new Error("Missing required environment variables");
   }
 
-  const hashedAdminPassword = await bcrypt.hash(ADMIN_PASSWORD, saltRounds);
+  const hashedAdminPassword = await bcrypt.hash(ADMIN_PASSWORD, saltRounds)          ;
   const hashedUserPassword = await bcrypt.hash(USER_PASSWORD, saltRounds);
 
   await db.collection("users").insertMany([
