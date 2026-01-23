@@ -1,6 +1,6 @@
 export interface TEvent {
 
-    id: number,
+    id: string,
     title: string,
     date: string,
     location: string,
