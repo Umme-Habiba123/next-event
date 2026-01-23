@@ -6,5 +6,4 @@ export interface TEvent {
     location: string,
     image: string,
     description: string,
-  
 }
