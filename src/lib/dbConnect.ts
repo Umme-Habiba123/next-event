@@ -10,5 +10,5 @@ async function dbConnect(){
       const client = new MongoClient(uri)   //database connect korbe--- 
     await client.connect()   //client database er access dibe------
     const db=client.db("next_event")  //databse pele return---
-    return {client,db};
+    return {client,db} ;
 }
