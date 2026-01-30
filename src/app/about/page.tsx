@@ -15,7 +15,7 @@ const features: Feature[] = [
     icon: CalendarDays,
   },
   {
-    title: "Audience Management",
+    title: "Audience Management ",
     description:
       "Handle registrations, attendees, and communication in one centralized and secure platform.",
     icon: Users,
